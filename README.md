@@ -10,7 +10,6 @@ The Java DataFrame Library is a comprehensive toolset designed for data manipula
 - **Core DataFrame Operations (`DataFrame.java`)**: Create, manipulate, and query data frames. Supports CRUD operations on rows and columns, data filtering, and basic transformations.
 - **Data Vector Manipulation (`DataVector.java`, `DoubleDataVector.java`)**: Manage columnar data efficiently. `DataVector.java` is generic, supporting various data types, while `DoubleDataVector.java` is optimized for double precision floating-point numbers.
 - **Statistical Analysis (`DataFrameStatistics.java`)**: Perform descriptive statistics, including mean, median, variance, and standard deviation calculations, directly on data frames.
-- **Data Plotting (`DataFramePlotting.java`)**: Integrate basic plotting capabilities (partially implemented). Designed to visualize data through charts and graphs, leveraging Java's graphical capabilities.
 - **Type-Specific Data Frames (`DoubleDataFrame.java`)**: Specialized implementation for numerical data analysis, improving performance and memory usage for datasets predominantly containing double values.
 - **Utility Classes (`RandomTools.java`, `FileTools.java`)**: Facilitate common tasks such as generating random datasets for testing and handling file-based data input/output operations.
 
@@ -38,3 +37,8 @@ public class Example {
         df.describe(); // Summarize the data
     }
 }
+
+## Acknowledgments
+
+Huge appreciation to Paul Boulman for providing me with the interface that significantly contributed to the development of this project. His insights and support were invaluable
+
